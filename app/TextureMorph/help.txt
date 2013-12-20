@@ -1,0 +1,47 @@
+<h1>Texture Morph</h1>
+
+<p>A demonstration of how complex-valued nonlinear functions can be used to warp texture coordinates.</p>
+
+<h2>Formula Entry</h2>
+
+<p>Near the top left is a field in which you can enter a mathematical formula. To the right you can see the effects of this formula on points, fields, and texture coordinates.</p>
+
+<p>For example:</p>
+
+<ul>
+	<li>X^2+X</li>
+	<li>(2+3i)*sin(X-i)</li>
+	<li>sqrt(atan(real(X))+imag(X^X)*i)</li>
+</ul>
+
+<p>Right click on the formula entry area for a list of constants and functions.</p>
+
+<p>You can add adjustable parameters whose names are capital letters. The variable <b>X</b> is special: it is the input and its value is provided by the viewing environment on the right.</p>
+
+<p>The formula is evaluated as it is typed. Green text indicates a valid formula, red text indicates an error. Hover the mouse over the entry field for help with errors.</p>
+
+<h2>Formula Evaluation</h2>
+
+<p>There are a number of different viewing environments to see the effects of a formula. Each has a zoom control at the bottom.</p>
+
+<h3>Point Transform</h3>
+
+<p>The mouse coordinate corresponds to the <code>X=(x+y*i)</code> input.</p>
+
+<p>A line is drawn from <code>X</code> to <code>f(X)</code>.</p>
+
+<h3>Trajectory</h3>
+
+<p>The starting point under the mouse is integrated.</p>
+
+<p>The velocity of <code>X</code> is taken to be <code>f(X)</code> i.e. the tangent at any point on the trajectory is the line which is displayed in Point Transform mode.</p>
+
+<h3>Colour Plane</h3>
+
+<p>You can enter further formulas (with separate parameters) for the red, green, and blue colour components. These values are clamped to the range <code>[0...1)</code>.</p>
+
+<p>Here the <code>X</code> variable does not have the same interpretation: it is the <em>output</em> from the function you entered on the left.</p>
+
+<h3>Texture Morph</h3>
+
+<p>Where <code>f(x+y*i)=(a+b*i)</code> we plot the texture coordinate <code>(a,b)</code> at <code>(x,y)</code>.</p>

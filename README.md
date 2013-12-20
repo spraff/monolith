@@ -1,8 +1,10 @@
 # Build Instructions
 
+````
 mkdir build
 cd build
 ccmake /path/to/monolith
+````
 
 In the ccmake setup:
 

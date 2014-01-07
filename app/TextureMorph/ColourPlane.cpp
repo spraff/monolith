@@ -1,3 +1,6 @@
+// Copyright 2013 Bernie Greenwood (spraff@gmail.com)
+// Licenced under GPL Version 2
+
 #include <ColourPlane.hpp>
 #include <Formula.hpp>
 #include <ParameterList.hpp>

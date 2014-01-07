@@ -1,3 +1,6 @@
+// Copyright 2013 Bernie Greenwood (spraff@gmail.com)
+// Licenced under GPL Version 2
+
 #ifndef MATHEXPRESSION_VARIABLE_H
 #define MATHEXPRESSION_VARIABLE_H
 

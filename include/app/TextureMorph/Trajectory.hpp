@@ -1,3 +1,6 @@
+// Copyright 2013 Bernie Greenwood (spraff@gmail.com)
+// Licenced under GPL Version 2
+
 #ifndef TRAJECTORY_HPP
 #define TRAJECTORY_HPP
 
